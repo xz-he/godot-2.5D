@@ -1,0 +1,22 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://bwo1lsrr7o82b"]
+
+[ext_resource type="Shader" uid="uid://dlvcs6yhn42uv" path="res://Asset/Mesh/Material/Shader/main.tres" id="1_mk5nv"]
+[ext_resource type="Texture2D" uid="uid://bwhm5so01xdx2" path="res://Asset/Mesh/Texture/AO/E_BLOCK_04_C_AO.png" id="2_dd4fv"]
+[ext_resource type="Texture2D" uid="uid://bofphw5sa4dik" path="res://Asset/Mesh/Texture/Godot_2.5D_Color.jpg" id="3_ef0sp"]
+[ext_resource type="Texture2D" uid="uid://bbiqigcxrjkg1" path="res://Asset/Mesh/Texture/Godot_2.5D_Metallic_roughness.jpg" id="4_ji0sm"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_mk5nv")
+shader_parameter/FloatParameter4 = 0.23
+shader_parameter/Metallic_02 = 0.0
+shader_parameter/FloatParameter3 = 0.0
+shader_parameter/Roughness_A = null
+shader_parameter/FloatParameter6 = 0.15
+shader_parameter/FloatParameter7 = 0.585
+shader_parameter/Specular = 1.0
+shader_parameter/AO_light_affect = 1.0
+shader_parameter/Rim = 0.1
+shader_parameter/tex_frg_2 = ExtResource("3_ef0sp")
+shader_parameter/tex_frg_3 = ExtResource("4_ji0sm")
+shader_parameter/tex_frg_16 = ExtResource("2_dd4fv")
